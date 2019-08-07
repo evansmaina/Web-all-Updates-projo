@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Kong Meals::</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!---start of nav bar--->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <a class="navbar-brand" href="#"><img src="splash_logo.png" style="width: 90px;"></a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Members</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+             
+                  <form id="search-food" class="topSearch">
+                    <div class="form-group">
+                        <input type="search" class="form-control" id="inputPassword" placeholder="search for your favourite meal">
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </nav>
+    <!--end of navbar--->
+    <!--start of welcome page--->
+    <div class="container-fluid welcome">
+        <div class="row text-center inner">
+            <div class="col-12 heading">
+                <h6 class="display-4">Find your favourite meal</h6>
+            </div>
+            <div class="col-12">
+                <p class="lead">Hello there! welcome to our site where we offer you the best services interms of meals orders and deliveries, all you just need is to search for your favourite meal send your location and the meal will be delivered to you instant</p>
+            </div>
+            <div class="col-12 text-center search">
+                <form id="search-foodyy" class="searchDown">
+                    <div class="form-group">
+                        <input type="search" class="form-control" id="inputPassword" placeholder="search for your favourite meal">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--end of welcome-->
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-12">
+                <h6 style="font-weight: 700" class="display-4">
+                    <span style="color: orangered">Food</span>
+                    <span style="color: darkkhaki">Menu</span>
+                
+                </h6>
+            </div>
+        </div>
+    </div>
+    <hr class="orange">
+    
+    <div class="container-fluid categories">
+    <div class="row text-center">
+    <ul id="nav-tab" class=" mx-auto my-4 navel category">
+      <li class="current"><a href="#food" class="mx-4 foodBtn" role="button" >Food</a></li>  
+     <li><a href="#cake" class="mx-4 cakeBtn" role="button"> Cakes</a></li>
+    <li><a href="#fruit" class="mx-4 fruitBtn" role="button"> Fruits</a></li>
+    </ul>
+    </div>
+</div>
+    
+    <!--start of food products-->
+    <section class=" container-fluid" id="foodproducts">
+        <ul class="row foodpro current text-center" id="food">
+            <li class="col-xs-12 col-sm-6 col-md-4 " id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/burger.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                 <h4 class="shop-item-price">price: 250</h4>
+                <h3 class="name">Burger</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4 product-box" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/choma.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 150</h4>
+                <h3 class="name">Choma</h3>
+            </li>
+
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/cream%20toast.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 200</h4>
+                <h3 class="name">Cream Toast</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container ">
+                    <img src="image/fry%20meat.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 180</h4>
+                <h3 class="name">Meat fry</h3>
+            </li>
+
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container ">
+                    <img src="image/meat%20cheese.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 80</h4>
+                <h3 class="name">Meat cheese</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container ">
+                    <img src="image/meat%20pie.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 240</h4>
+                <h3 class="name">Meat pie</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/pizza.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 350</h4>
+                <h3 class="name">Pizza</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/rice%20meat.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 180</h4>
+                <h3 class="name">Rice meat</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/slice%20meat.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 240</h4>
+                <h3 class="name">Slice meat</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/stew.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 110</h4>
+                <h3 class="name">Stew</h3>
+            </li>
+
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/chicken.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:160</h4>
+                <h3 class="name">Chiken</h3>
+            </li>
+                     <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/chiken%20rice.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:240</h4>
+                <h3 class="name">Chicken Rice</h3>
+            </li>      
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/cream%20coffee.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:60</h4>
+                <h3 class="name">Cream Coffee</h3>
+            </li>         <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/Hambuger.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:180</h4>
+                <h3 class="name">Hamburger</h3>
+            </li>       
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/salmon-dish-food-meal-46239.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:260</h4>
+                <h3 class="name">Salmon Dish</h3>
+            </li>  
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/veg%20meat.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:240</h4>
+                <h3 class="name">Veg Meat</h3>
+            </li>    
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/veg%20sauce.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:280</h4>
+                <h3 class="name">Veg Sauce</h3>
+            </li>
+               <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="image/veg.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:80</h4>
+                <h3 class="name">Veg</h3>
+            </li>
+        </ul>
+        
+        
+<!--    start of cakes    -->
+     <ul class="row text-center foodpro" id="cake">
+
+            <li class="col-xs-12 col-sm-6 col-md-4 product-box" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="cakes/cake-3.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 450</h4>
+                <h3 class="name">Pink flower</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container ">
+                    <img src="cakes/cupcake-1.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 180</h4>
+                <h3 class="name">Cup cream</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="cakes/cupcake-2.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 120</h4>
+                <h3 class="name">Cup choclate</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container ">
+                    <img src="cakes/cupcake-3.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 80</h4>
+                <h3 class="name">Cup ice</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container ">
+                    <img src="cakes/doughnut-1.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 140</h4>
+                <h3 class="name">Pink Doughnut</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="cakes/doughnut-2.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 240</h4>
+                <h3 class="name">Choclate Doughnut</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="cakes/doughnut-3.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 120</h4>
+                <h3 class="name">Face Doughnut</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="cakes/pexels-photo-291528.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 340</h4>
+                <h3 class="name">Black Forest</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="cakes/sweets-1.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 90</h4>
+                <h3 class="name">Cake Sweet</h3>
+            </li>
+
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="cakes/sweets-2.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:80</h4>
+                <h3 class="name">sweet triangle</h3>
+            </li>
+         
+              <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="cakes/sweets-3.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:120</h4>
+                <h3 class="name">berry choclates</h3>
+            </li>
+     <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="cakes/creamy%20%20cream.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:80</h4>
+                <h3 class="name">cake cream</h3>
+            </li>
+
+         
+        </ul>    
+        
+        
+<!--  end of cakes      -->
+<!--start of fruits     -->
+ <ul class="row text-center foodpro" id="fruit">
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/apple.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                 <h4 class="shop-item-price">price: 50</h4>
+                <h3 class="name">Pineapple</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4 product-box" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/background-water-breakfast-bright-161573.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 20</h4>
+                <h3 class="name">Green Lemon
+                </h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container ">
+                    <img src="fruit/bing-cherries-ripe-red-fruit.jpg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 180</h4>
+                <h3 class="name">Cheries</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/black%20grapes.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 160</h4>
+                <h3 class="name">Black grapes</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container ">
+                    <img src="fruit/citrus-diet-food-fresh-42059.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 30</h4>
+                <h3 class="name">Orange</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container ">
+                    <img src="fruit/coconut.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 140</h4>
+                <h3 class="name">Coconut</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/corn.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 10</h4>
+                <h3 class="name">Corn Maize</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/grapes-green-fruit-food-51124.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 240</h4>
+                <h3 class="name">Green Grapes</h3>
+            </li>
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/guavas.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price: 20</h4>
+                <h3 class="name">Green Guavas</h3>
+            </li>
+
+
+            <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/mix%20fruit%20two.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:350</h4>
+                <h3 class="name">mix fruit</h3>
+            </li>
+     
+     
+      <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/ovacado.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:10</h4>
+                <h3 class="name">Avocado</h3>
+            </li>
+      <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/pilled%20oranges.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:20</h4>
+                <h3 class="name">Pilled Oranges</h3>
+            </li>
+      <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/red%20apple.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:30</h4>
+                <h3 class="name">Red Apple</h3>
+            </li>
+      <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/red%20grapes.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:80</h4>
+                <h3 class="name">Red Grapes</h3>
+            </li>
+      <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/ripe%20guavas.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:20</h4>
+                <h3 class="name">Ripe Guavas</h3>
+            </li>
+      <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/mix%20fruit.png" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:200</h4>
+                <h3 class="name">Fruit Mix</h3>
+            </li> <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/ripe%20guavas.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:20</h4>
+                <h3 class="name">Ripe Guavas</h3>
+            </li>
+      <li class="col-xs-12 col-sm-6 col-md-4" id="food-container">
+                <div class="container-fluid img-container">
+                    <img src="fruit/slice%20apple.jpeg" class="product-img">
+                    <button class="purchase-btn btn btn-primary">
+                        <img src="cart.png" style="width: 40px;"> purchase
+                    </button>
+                </div>
+                
+                <h4 class="shop-item-price">price:20</h4>
+                <h3 class="name">Slice Aplle</h3>
+            </li>
+     
+        </ul>        
+        
+        
+        
+        
+<!--end of fruits     -->
+        
+        
+        
+        
+        
+        
+    </section>
+    <!--end of foodproducts-->
+    <div class="container-fluid ">
+    <div class="row text-center">
+        <div class="col-12 mx-auto my-2" ><h6 class="display-4" style="color: #563d7c;">Cart</h6> </div>
+    <div class="col-12 mx-auto my-5">
+ <div class="cartbtn" id="cart-info">
+                <span class="nav-icon"><img  src="cart.png" alt="logo" width="80;"></span>
+                <div class="cart-items" id="cart-items"><h5>0</h5></div>
+            </div>
+    </div>
+    </div>
+    </div>
+<!--  start of cart-->
+    <div class="container-fluid cart-container" id="cart-container">
+    <div class="row hello text-center">
+    <span class="cart-item cart-header cart-column">ITEM</span>
+        <span></span>
+        <span></span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+        <div class="container-fluid cart" id="cart">
+<!--        start of cart item-->
+  
+       <!--        start of cart item--> 
+          
+      </div>  
+        
+        <div class="cart-total col-12 text-center">
+                <strong class="cart-total-title"><h5>Total</h5></strong>$
+                <span class="cart-total-price" id="cart-total-price"><h3>0</h3></span>
+            </div>
+        <div class="col-12 text-center">
+        <button class="btn-success btn purchase-cart" id="purchase-cart" role="button">Purchase</button></div>
+        
+    </div>
+            
+                
+            
+           
+<!--         start of cart items       -->
+               
+<!--       end of cart items    -->
+    
+    
+<!--end of cart items-->
+
+   <hr class="blue">    
+    
+    
+    
+    
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-12">
+                <h5>Comments</h5>
+            </div>
+        </div>
+    </div>
+    <hr class="orange">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-12">
+                <img class="comment-pic" src="comment.jpeg">
+            </div>
+        </div>
+    </div>
+    <hr class="blue">
+    <!--start of comments-->
+    <div class="container-fluid mx-auto comment-div py-5">
+        <div class="row text-center" id="commments">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 comment ">
+                <span><img class="img-fluid prof-img" src="prof/pro%20(1).jpg">
+                </span>
+                <div class="">
+                <span class="textComment">Ooh...yeah! this site offers the best food ever..</span>
+                <br />
+                <span class="delete">delete</span>
+</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 comment">
+                 <span><img class="img-fluid prof-img" src="prof/pro%20(2).jpg">
+                </span>
+                <div class="">
+                
+                <span class="textComment">Woww...amazing! the food are delicious and yummy..</span>
+                <br />
+                <span class="delete">delete</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 comment">
+                 <span><img class="img-fluid prof-img" src="prof/pro%20(3).jpg">
+                </span>
+                <div class="">
+                
+                <span class="textComment">ahaa...who is hungry for a snack...time to eat fam!!</span>
+                <br />
+                <span class="delete">delete</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 comment">
+                 <span><img class="img-fluid prof-img" src="prof/pro%20(4).jpg">
+                </span>
+                <div class="">
+                <span class="textComment">mmmhh..am addicted to food in this site...nice services!!</span>
+                <br />
+                <span class="delete">delete</span>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 comment">
+                 <span><img class="img-fluid prof-img" src="prof/pro%20(5).jpg">
+                </span>
+                <div class="">
+                <span class="textComment">great work kong..i ordered some snack and it was delivered to me at instant..love this site!!</span>
+                <br />
+                <span class="delete">delete</span>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 comment">
+                 <span><img class="img-fluid prof-img" src="prof/pro%20(6).jpg">
+                </span>
+                <div class="">
+                <span class="textComment">thanks for the friday offer and bonus..i benefited there alot!!</span>
+                <br />
+                <span class="delete">delete</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--end of comments-->
+    <!--start  of replies-->
+    <div class="container-fluid">
+        <div class="row tect-center commments">
+            <div class="col-xs-12 col-sm-6 col-md-4 comment">
+                <img src="sender.jpeg">
+                <form id="add-comment">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="reply" placeholder="write your comment...">
+                    </div>
+
+                    <br />
+                    <button type="submit" class="reply">reply</button>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    <!--end of replies-->
+    <div class="container-fluid" style="padding-top: 3rem;">
+        <div class="row text-center">
+            <div class="col-12">
+                <h5 style="font-size: 1.8rem;">
+                    <span style="color:forestgreen">connect</span>
+                    <span style="color: firebrick;font-size: 1.6rem">with</span>
+                    <span style="font-weight: 900;font-size: 2rem" >our</span>
+                    <span style="color: orangered;font-style: oblique;font-weight: 900;font-size: 2.4rem;">team</span>
+                    
+                       </h5>
+            </div>
+        </div>
+    </div>
+    <hr class="orange">
+    <!--start of pills(panel)-->
+<!--
+    <div class="container-fluid tabbed">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" href="#owner" data-target="#owner">Owner</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#team" data-target="#team">Team</a>
+            </li>
+        </ul>
+        <div class="panel active " id="owner">
+            <div class="panel-body">
+                <div class="col-12 text-center profile">
+                    <img src="king.jpg" style="border-radius: 50%;">
+                </div>
+
+                <p class="lead">This is our owner popularly known as<strong> <em>KingKong</em></strong> ...He is the CEO of <strong>KONG COMPANY</strong> and the founder of our website...He is one of the most talented guy we can say we have ever met and work with and one thing we are fond of him is his best interms of creativity.. you can connect with him or view his profile for more details.</p>
+                <a href="#" class="btn btn-secondary" role="button">profile</a>
+                <a href="#" class="btn btn-primary" role="button">connect</a>
+
+
+            </div>
+        </div>
+        <div class="panel" id="team">
+            <div class="panel-body">
+           <div class="col-12 text-center profile">
+                    <img src="team.jpg" style="border-radius: 50%;">
+                </div>     
+            <p class="lead">This is our Team popularly known as the <strong><em>legends</em></strong>...we are actually part of the company and also of this our favourite website.We usually work hard to ensure that our clients or customers are satisfied with our services and more please with us and our products...one of our key factor that make us achieve our goal is that of working as a team.. you can connect with us or view our profile for more details</p>
+                
+             <a href="#" class="btn btn-secondary" role="button">profile</a>
+                <a href="#" class="btn btn-primary" role="button">connect</a>
+
+            </div>
+        </div>
+    </div>
+-->
+<div class="container-fluid">
+    <div class="row text-center">
+    <div class="col-10 mx-auto my-2 col-md-3">
+        <div class="imagey">
+             <div class="team-pic" style="background: url(team/king.JPG)"></div>
+            <div class="team-pic" style="background: url(team/king.JPG)"></div>
+        <div class="details-text mx-auto" style="background: url(team/backg.jpeg);background-position: top;background-size: cover;">
+            <h4>King_Kong</h4>
+            <h5>Project_Manager</h5>
+            </div> 
+        <div class="team-social-div">
+           <a href="#"><img class="fluid team-social" src="social/facebook.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/instagram.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/twitter.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/whatsapp.png"></a> 
+            </div>    
+        
+        </div>
+        
+        
+        </div>
+<!--        end of col-->
+        
+        <div class="col-10 mx-auto my-2 col-md-3">
+        <div class="imagey">
+             <div class="team-pic" style="background: url(team/Rebecca.jpeg)"></div>
+            <div class="team-pic" style="background: url(team/Rebecca.jpeg)"></div>
+        <div class="details-text mx-auto" style="background:url(team/backg1.jpg)">
+            <h4 style="color:burlywood">Rebecca_Sly</h4>
+            <h5 style="color:darkorange">UX/UI_Designer</h5>
+            </div> 
+        <div class="team-social-div">
+           <a href="#"><img class="fluid team-social" src="social/facebook.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/instagram.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/twitter.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/whatsapp.png"></a> 
+            </div>    
+        
+        </div>
+        
+        
+        </div>
+<!--        end of col-->
+      <div class="col-10 mx-auto my-2 col-md-3">
+        <div class="imagey">
+             <div class="team-pic" style="background: url(team/ben.jpg)"></div>
+            <div class="team-pic" style="background: url(team/ben.jpg)"></div>
+        <div class="details-text mx-auto" style="background: url(team/backg2.jpg) ">
+            <h4 style="color:chartreuse">Ben_Bushii</h4>
+            <h5 style="color: thistle">Web_Developer</h5>
+            </div> 
+        <div class="team-social-div">
+           <a href="#"><img class="fluid team-social" src="social/facebook.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/instagram.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/twitter.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/whatsapp.png"></a> 
+            </div>    
+        
+        </div>
+        
+        
+        </div>
+<!--        end of col-->
+         <div class="col-10 mx-auto my-2 col-md-3">
+        <div class="imagey">
+             <div class="team-pic" style="background: url(team/halima.jpeg)"></div>
+            <div class="team-pic" style="background: url(team/halima.jpeg)"></div>
+        <div class="details-text mx-auto" style="background: url(team/backg3.jpg);">
+            <h4 style="color: #222">Halima_Fatush</h4>
+            <h5 style="color: chocolate">Graphic_Designer</h5>
+            </div> 
+        <div class="team-social-div">
+           <a href="#"><img class="fluid team-social" src="social/facebook.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/instagram.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/twitter.png"></a> 
+             <a href="#"><img class="fluid team-social" src="social/whatsapp.png"></a> 
+            </div>    
+        
+        </div>
+        
+        
+        </div>
+<!--        end of col-->             
+
+    </div>
+    
+    </div>    
+    
+    <!--end of pills(panels)-->
+    <!--start of footer-->
+    <footer class="padding2">
+    <div class="container-fluid">
+        <div class="row text-center">
+        <div class="col-xs-12 col-sm-6">
+         <img src="splash_logo.png" alt="Logo pic" class="img-fluid" style=" width: 150px;">
+        <hr class="light">
+        <p>Tel no:+254710282240</p>
+        <p>Email us: evansmaina879@gmail.com</p>
+        <p>Street:Kenyatta avenue</p>
+        <p>city:Nairobi</p>
+        <p>Country:Kenya</p>
+        
+            </div>
+            
+     <div class="col-xs-12 col-sm-6">
+        <hr class="light">
+              <h5>Subscribe to receive emails</h5>
+              <hr class="light">
+         <div class="subscribe">
+           <form>
+                    <input class="form-control mr-sm-2 form-control-lg" type="email" placeholder="write your email" aria-label="Text">
+      <button class="btn-success submit my-2 my-sm-0" type="submit">Subscribe</button>
+                </form>
+        </div>
+         <div class="container-fluid follow">
+         <h6>FOLLOW US</h6>
+              <hr class="red">
+        </div>
+         <div class="col-12">
+         <div class="container-fluid social">
+          <a href="#"><img src="social/google-plus.png"></a>
+        <a href="#"><img src="social/skype.png"></a>
+          <a href="#"><img src="social/instagram.png"></a>
+          <a href="#"><img src="social/twitter.png"></a>
+           <a href="#"><img src="social/youtube.png"></a>
+            <a href="#"><img src="social/whatsapp.png"></a>
+          
+      
+      </div>
+         </div>
+            </div>
+        </div>
+        </div>
+    <div class="col-12 copywright text-center">
+          <hr class="finishline">
+        <h5>&copy;KongDunga.com</h5>
+        </div>
+    </footer>
+    
+    
+    
+    <!--end of footer-->
+    
+    <!--- start of script--->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="script.js"></script>
+
+</body></html>

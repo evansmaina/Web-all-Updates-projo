@@ -1,0 +1,719 @@
+*{
+margin: 0;
+padding: 0;
+font-family: cursive;
+    
+}
+body{
+    background:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)) ,url(backgg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 !important;
+    margin: 0 !important ;
+}
+.login-div{
+    background: 
+}
+/*login form*/
+.nav-pills li{
+    text-align: center;
+    background-color: #333030;
+    border-radius: 20px;
+/*    transform: rotate(-90deg);*/
+       
+}
+.nav-pills .nav-link{
+    width: 100%;
+    height: 100%;
+    color:white;
+    display: flex;
+    align-items: center; 
+    transition: all 1s ease-in-out;
+    
+       
+}
+.nav-pills .nav-link:hover{
+    transform: scale(1.1);
+}
+.logBtn-div{
+    height: 100%;
+    box-shadow: 12px 25px 20px rgba(0,0,0,0.5);
+}
+.nav-pills{
+   display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+     border-radius: 20px;
+    
+   
+   
+}
+.log-img{    
+display: flex;   
+    
+}
+.imgy-log{
+   width: 600px;
+    box-shadow: 12px 25px 20px rgba(0,0,0,0.5);
+}
+.loger-row{
+    position: relative;
+}
+.prof-pic{
+position: absolute;
+width: 100px;
+ top: -20%;
+ left: calc(40% - 40px);
+border-radius: 100%; 
+z-index: 10;
+    
+}
+.pan-row{
+    width: 88%;
+    border-bottom: 1px solid #333030;
+    border-left: 1px solid #333030;
+    border-right: 1px solid #333030;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.red{
+    border-top:2px solid #757c81;
+    width: 40%;
+}
+
+.fb {
+    width: 100%;
+    border: 3px solid white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .08), 0 1px 4px rgba(0, 0, 0, .12);
+    border-radius: 4px;
+    color: #757c81;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+
+.ggle {
+    width: 100%;
+    border: 3px solid white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .08), 0 1px 4px rgba(0, 0, 0, .12);
+    border-radius: 4px;
+    color: #757c81;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+
+.fb .linky, .ggle .linky, .terms .linky, .forgot .linky{
+    text-decoration: none;
+}
+
+.ggle:hover,
+.fb:hover {
+    transform: translateY(-20%);
+}
+
+.fa-facebook {
+    font-size: 1.5rem;
+    color: #3b5998;
+}
+
+.fa-google-plus {
+    font-size: 1.5rem;
+    color: #dd4b39;
+}
+
+.orange {
+    border-top: 2px solid #757c81;
+}
+
+.input-password-user,.input-password,
+.input-email-user, .input-email, .input-confirm-password, .input-first, .input-last, .input-location, .input-email-user,.input-tel, .input-Location {
+    border-radius: 4px;
+    border: 0.9px solid #757c81;
+     text-align: center;
+}
+
+
+
+.terms {
+    font-size:1.1rem;;
+}
+.terms a{
+    text-decoration: none;
+}
+.terms a:hover{
+    color:#343739;
+}
+.submitBtn{
+    padding: 0.5em 5em;
+    background-color: #02b3e4;
+    box-shadow: 12px 15px 20px rgba(0,0,0,.4);
+    transition: all 1s ease-in-out;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+}
+.submitUp{
+    padding: 0.5em 5em;
+    background: #02b3e4;
+    box-shadow: 12px 15px 20px rgba(0,0,0,.4);
+    transition: all 1s ease-in-out;
+     border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+}
+.submitBtn:hover{
+    background-color:#046783; 
+    transform: translateY(-10%);
+}
+
+.submitUp:hover{
+    background:#046783; 
+    transform: translateY(-10%);
+}
+
+.forgot a{
+    text-decoration: none;
+}
+.forgot a:hover{
+    color:#343739;
+}
+.forgot{
+    display: inline-block;
+    transition: transform 0.6s ease-in-out;
+}
+.forgot:hover{
+  transform: translateY(-5%);
+}
+
+.offer-feedback{
+    border: 0.2rem solid wheat;
+    display: block;
+   
+}
+.error{
+    display: block;
+    color: red;
+    border-color: red;
+}
+
+.success{
+    display: block;
+    color: green;
+    border-color: lawngreen;
+}
+.hide{
+    display: none;
+}
+
+/*tabs display*/
+.panely.active{
+    display: block;
+    margin: auto;
+}
+.panely{
+    display: none;
+}
+.hide{
+    display: none;
+}
+@media(max-width:640px){
+    .img-fluid{
+        display: none;
+    }
+    .nav-pills{
+     flex-direction: row;   
+    }
+    .nav-pills .nav-item{
+        border-radius: none;
+    }
+    .logBtn-div{
+        box-shadow: none;
+        width: 95%;
+    }
+    .pan-row{
+        width: 100%;
+    }
+    .terms{
+      font-size:0.8rem;  
+    }
+    .panely h2{
+       font-size:1rem;  
+    }
+    .fb{
+      width: 90%;
+    }
+    .ggle{
+ width: 90%;
+    }
+    .orange{
+        display: none;
+    }
+    .text-Or{
+          
+    }
+    *{
+        font-size: 0.9rem;
+    }
+    
+}
+@media(max-width:768px){
+   .pan-row{
+        width: 100%;
+    }
+    .imgy-log{
+        width: 73%;
+    }
+}
+@media(max-width:998px){
+   .pan-row{
+        width: 100%;
+    }
+    .imgy-log{
+        width: 75%;
+    }
+}
+@media(max-width:1198px){
+   .pan-row{
+        width: 100%;
+    }
+    .imgy-log{
+        width: 83%;
+    }
+}
+
+/*start of modal*/
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+   
+}
+.modaly{
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%,-45%);
+    background: white;
+    width: 40%;
+    z-index: 400;
+    padding: 10px;
+    text-align: center;
+  
+    
+}
+.modal-header p{
+    border:3px solid chartreuse;
+    display: block;
+    width: 95%;
+    text-align: center;
+    margin-top: 1.2rem;
+    color: forestgreen;
+  
+}
+.closeModal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    cursor: pointer;
+}
+.closeModal:hover{
+    background-color:khaki;
+    transform: translateY(-3%);
+    border-radius: 100%;
+}
+.drop-down-icon{
+    width: 20px;
+    transform: translateY(-500%);
+    animation-name:goDown;
+    animation-delay:-4s;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    transition: all .5s ease-in-out;
+    position: absolute;
+}
+@keyframes goDown{
+    0%,100%{
+      transform: translateY(-500%);
+    }
+    50%{
+       transform: translateY(-20%); 
+    }
+    
+}
+.view-button{
+    text-decoration: none;
+    padding: 0.3em 1em;
+    background-color: #02b3e4;
+    box-shadow: 12px 15px 20px rgba(0,0,0,.4);
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white; 
+}
+.view-button:hover{
+    background-color:#046783; 
+    transform: translateY(-30%);
+    color: white; 
+}
+
+
+
+/*end of modal*/
+
+
+
+
+/*end of login form*/
+
+
+
+.top-search{
+    margin-top:7rem;
+    height: 40vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(topBackg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top-col-head{
+border-top: 2px solid orangered;
+width: 70%;    
+    
+}
+.col-top{
+  position: relative;
+}
+.down-img{
+    width: 40px;
+    animation-name:scrollDown;
+    animation-delay:-4s;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-in-out;
+    position: absolute;
+}
+@keyframes scrollDown{
+    0%,100%{
+      transform: translateY(0%);
+    }
+    5%{
+       transform: translateY(20%); 
+    }
+    25%{
+       transform: translateY(40%); 
+    }
+    50%{
+       transform: translateY(60%); 
+    }
+    75%{
+        transform: translateY(80%);
+    }
+}
+/* end of search top*/
+
+/*start of body search*/
+/*start of search area for hotels*/
+
+.search-body{
+position: relative;
+height:100vh;    
+background: rgba(255,255,0,0.1);
+}
+/*search hotel video backg*/
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    border-radius: 20px;
+}
+.video-item{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+/*end of search hotel video backg */
+
+/*start of search hotels only*/
+.slide-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+}
+.swiper-container{
+   width: 300px;
+    margin-top: 40px;
+    z-index: 10;
+    border-radius: 10px;
+    transition:all 2s ease-in-out;
+    cursor: pointer;
+    transform: translateY(10%);
+}
+
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.details-area{
+    background: #262626;
+    color: white;
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    transform: scale(.9) translateY(-10%);
+    transition:all .8s ease-in-out;
+    z-index: -1;
+    box-shadow: 0 35px 10px rgba(0,0,0,0.5);
+    
+    
+}
+
+
+.details-text{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.details-text h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.details-text h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.details-text .team-text{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+
+    
+}
+.hotel-card{
+    position: absolute;
+    top:90%;
+    display: block;
+    width: 100%;
+    font-size:2rem;
+    text-align:center;
+}
+.hotel-card{
+    position: absolute;
+    top:90%;
+    display: block;
+    width: 100%;
+    font-size:2rem;
+    text-align:center;
+    transition: all 1s ease-in-out;
+}
+.hotel-card:hover{
+    transform: translateY(-20%);
+    background-color: burlywood;
+}
+.wrapper:hover .details-area{
+    z-index: 3;
+    transform: translateY(-8%)scale(1);
+}
+.link-web{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.col-hotel{
+    margin-top: 6rem;
+}
+.col-hotel-top{
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+
+@media(max-width:768px){
+   .swiper-container{
+        visibility: hidden;
+        
+    }
+    .details-area{
+        position: relative;
+        z-index: 1;
+        width: 300px;
+        height: 150px;
+       
+    }
+    .details-text h2{
+      font-size: 1.2rem;  
+    }
+    .details-text h5{
+        margin-top: 1rem;
+       font-size: 1.2rem;
+    }
+    .team-text{
+        display: none;
+    }
+    p.lead{
+        font-size:0.8rem; 
+    }
+    .col-hotel{
+    margin-top: .2rem;
+}
+    .col-hotel-top{
+        margin-top: .2rem;
+        margin-bottom: .2rem;
+    }
+
+    
+}
+
+
+
+
+
+/*end of search hotels only*/
+.search-all{
+    background: rgba(255,255,255,0.6);
+    
+}
+.underline{
+    border-top: 3px solid #696666;
+    width: 60%;
+}
+.search-col{
+    display: flex;
+    justify-content: center;
+}
+.search-box{
+    align-self: flex-end;
+}
+/*start of search for all foods area*/
+.inputy{
+    position: relative;
+    display: inline-block;
+}
+.input-search{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: none;
+    border: 4px solid #12028d;
+    box-sizing: border-box;
+    outline: none;
+    transition: width 0.4s ease-in-out,border-radius 0.8s ease-in-out, padding 0.2s;
+    transition-delay: 0.4s;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0 15px;
+    text-align: center;
+
+}
+.input-search::placeholder{
+    visibility:hidden;
+    text-align: center;
+    transition: all 0.8s ease-in-out;
+}
+.input-search.normal-Search::placeholder{
+    visibility:visible;  
+}
+
+.btn-search{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.btn-search::before{
+content: '';
+width: 4px;
+height: 25px;
+background: #12028d; 
+position: absolute;
+ transform: rotate(-45deg);
+transition: 0.3s;
+bottom: -6px;
+right: -6px;    
+    
+}
+
+.normal-Search{
+    width: 360px;
+    border-radius: 0;
+}
+.closeBtn::before, .closeBtn::after{
+    content: '';
+    width: 4px;
+    height: 34px;
+    background:#12028d;
+    position: absolute;
+    bottom: 12px;
+    right: 28px;
+}
+.closeBtn::before{
+transform: rotate(-45deg);
+}
+.closeBtn::after{
+transform: rotate(45deg);
+}
+
+
+/*start of search for all foods area*/
+
+footer{
+    background: #333;
+    color: #d5d5d5;
+    padding-top: 4px;
+   
+    
+}
+.liney{
+border-top: 1px solid #d5d5d5;
+}
+.copy-div{
+    display: flex;
+    padding-top: 4px;
+    justify-content: space-around;
+    box-shadow: 12px 30px 25px rgba(0,0,0,0,5);
+}
+.copy-div p{
+    cursor: pointer;  
+}
+.copy-div p:hover{
+    color: darkgoldenrod;
+}
